@@ -1,0 +1,265 @@
+body {
+  font-family: 'Lato', sans-serif;
+  margin: 0%;
+}
+
+.container-menu {
+  width: 100%;
+  max-width: 1200px;
+  padding: 0 50px;
+  margin: 0 auto;
+}
+
+.container {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+a {
+  color: #f9fbfe;
+  text-decoration: none;
+}
+
+/* header */
+header {
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  background-color: rgba(20, 54, 66, 0.7);
+  width: 100%;
+  height: 67px;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo img {
+  width: 200px;
+  padding-top: 15px;
+}
+
+.list-menu {
+  line-height: 65px;
+  padding-right: 100px;
+}
+
+.list-menu a {
+  padding-right: 30px;
+}
+
+/* mobile menu */
+.menu-icon {
+  color: white;
+  margin: 0 0 0 auto;
+  padding: 21px 0;
+  /* Gantikan property display ke none */
+  display: none !important;
+}
+
+/* Top Wrapper */
+.top-wrapper {
+  text-align: center;
+  background: linear-gradient(rgba(20, 54, 66, 0.7), rgba(8, 8, 8, 0.7)), url(pic/Coffe\ Header.png) no-repeat;
+  background-size: cover;
+  height: 620px;
+  color: #f9fbfe;
+  border-radius: 22px;
+}
+
+.text-judul {
+  padding-top: 150px;
+}
+
+.text-judul h1 {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  margin-bottom: -15px;
+}
+
+.text-judul p {
+  font-weight: 200;
+  font-size: 24px;
+  line-height: 43px;
+}
+
+/* content wrapper */
+
+.content {
+  display: flex;
+  padding-top: 100px;
+  width: auto;
+}
+
+.gambar img {
+  width: 335px;
+  height: 370px;
+  border-radius: 18px;
+  margin-right: 100px;
+}
+
+.text-content {
+  margin-top: -20px;
+}
+
+.text-content h2 {
+  color: #0f8b8d;
+  font-weight: 700;
+  font-size: 40px;
+  border-bottom: 3px solid #ec9a29;
+  padding-bottom: 20px;
+  width: fit-content;
+}
+
+.text-content p {
+  font-size: 18px;
+  color: #143642;
+  font-weight: 400;
+  margin-top: -8px;
+}
+
+.gambar2 img {
+  width: 300px;
+  height: 300px;
+  margin-left: 100px;
+  border-radius: 18px;
+}
+.gambar2-mobile {
+  display: none;
+}
+
+.tombol {
+  margin-top: 50px;
+}
+
+.btn {
+  background-color: #a8201a;
+  padding: 15px 40px;
+  border-radius: 50px;
+  font-size: 15px;
+}
+
+.btn:hover {
+  background-color: #7b221e;
+}
+
+.gambar3 img {
+  width: 350px;
+  height: 350px;
+  margin-right: 100px;
+  border-radius: 18px;
+}
+
+/* find instagram */
+.find {
+  text-align: center;
+  margin-top: 80px;
+  width: 100%;
+}
+
+.find h1 {
+  color: #0f8b8d;
+  font-size: 40px;
+}
+
+.find span {
+  color: #ec9a29;
+}
+
+.foto {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.foto-ig {
+  margin-bottom: 20px;
+}
+
+.foto img {
+  width: 237px;
+  height: 237px;
+}
+
+.content-footer {
+  margin-top: 70px;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.content-footer h1 {
+  color: #0f8b8d;
+  font-size: 40px;
+}
+
+.content-footer p {
+  font-size: 18px;
+  color: #143642;
+  font-weight: 400;
+  margin-top: -10px;
+}
+
+.tombol-footer {
+  margin-top: 30px;
+}
+
+/* Footer */
+
+footer {
+  background-color: #143642;
+}
+
+.footer-menu {
+  display: flex;
+  justify-content: space-between;
+  padding: 70px 20px 120px 0px;
+}
+
+.list-footer {
+  display: flex;
+  padding-right: 100px;
+}
+
+ul p {
+  font-weight: 700;
+  font-size: 20px;
+  /* identical to box height */
+
+  color: #ec9a29;
+}
+
+li {
+  list-style: none;
+  margin-top: 20px;
+}
+
+.list {
+  margin-right: 30px;
+}
+
+.list li {
+  font-weight: 400;
+  font-size: 20px;
+  color: #f9fbfe;
+}
+
+.logo-footer img {
+  width: 335px;
+  padding-top: 15px;
+}
+
+.contact-footer {
+  margin-top: 13px;
+}
+.contact-footer a {
+  padding-left: 15px;
+  color: #f9fbfe;
+}
+.contact-footer img {
+  width: 30px;
+}
