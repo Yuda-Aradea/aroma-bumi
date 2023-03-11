@@ -91,6 +91,7 @@
   }
   .container {
     width: auto;
+    margin: 0px !important;
   }
   .logo img {
     width: 130px;
@@ -115,7 +116,8 @@
   }
 
   .text-judul {
-    padding-top: 150px;
+    padding-top: 170px;
+    padding-left: 22px;
   }
 
   .text-judul h1 {
@@ -129,16 +131,16 @@
   .content {
     display: block;
     width: auto;
-    margin: auto;
     padding-top: 30px;
   }
   .gambar {
     text-align: center;
+    width: 100%;
   }
   .gambar img {
     width: 300px;
     height: 300px;
-    margin-right: 18px;
+    margin-right: 20px;
   }
   .text-content {
     margin-top: -10px;
@@ -191,7 +193,7 @@
   }
 
   .find h1 {
-    font-size: 28px;
+    font-size: 25px;
   }
 
   .foto {
@@ -200,7 +202,8 @@
   }
 
   .foto img {
-    width: 97%;
+    width: 300px;
+    height: 300px;
   }
 
   .content-footer {
