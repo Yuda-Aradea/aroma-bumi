@@ -1,0 +1,315 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  color: #f9fbfe;
+}
+
+a {
+  text-decoration: none;
+  color: #f9fbfe;
+}
+
+li {
+  list-style: none;
+}
+
+/* Simple Fading Animation */
+
+@keyframes fading {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+/* Simple Slide Up Animation */
+
+@keyframes slideUp {
+  from {
+    margin-top: 50px;
+  }
+
+  to {
+    margin-top: 0;
+  }
+}
+
+/* Heade nav */
+header {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  animation: fading ease 1s;
+}
+.container-header {
+  padding: 0 138px;
+  margin: 0 auto;
+}
+nav {
+  width: 100%;
+  display: flex;
+  height: 90px;
+  align-items: center;
+  justify-content: space-between;
+  background-color: transparent;
+  position: fixed;
+  top: 0;
+  z-index: 3;
+}
+
+.logo img {
+  width: 250px;
+}
+
+.list-link {
+  width: 30%;
+}
+.list-link ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+.list-link ul li a {
+  opacity: 0.5;
+  font-size: 15px;
+}
+
+.active {
+  color: #f9fbfe;
+  opacity: 1 !important;
+}
+
+.list-link ul li a:hover {
+  opacity: 1;
+}
+
+/* Menu dropdown */
+nav .toggle-menu {
+  font-size: 2rem;
+  cursor: pointer;
+  display: none;
+}
+
+.dropdown-menu {
+  position: fixed;
+  height: 0;
+  width: 70%;
+  right: 2rem;
+  top: 70px;
+  background: rgba(20, 54, 66, 0.7);
+  backdrop-filter: blur(15px);
+  border-radius: 10px;
+  overflow: hidden;
+  z-index: 0;
+  transition: height 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  display: none;
+}
+
+.dropdown-menu.open {
+  height: 220px;
+}
+
+.dropdown-menu li {
+  padding: 0.7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Main-content */
+.body-content {
+  display: flex;
+  flex-direction: column;
+}
+.main-content {
+  background: linear-gradient(0deg, rgba(20, 54, 66, 0.7), rgba(20, 54, 66, 0.7)), url(pic/Coffe\ Header.png);
+  background-size: cover;
+  height: 700px;
+  display: flex;
+  align-items: center;
+}
+
+.text-content {
+  margin: 0 auto;
+  text-align: center;
+  animation: slideUp ease 1s;
+}
+
+.text-content h1 {
+  font-size: 60px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.text-content p {
+  font-size: 28px;
+  font-weight: 200;
+}
+
+.content {
+  margin: 80px auto 0 auto;
+  max-width: 900px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.gambar {
+  width: 280px;
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+.gambar img {
+  width: 100%;
+  transition: transform ease 1s;
+}
+
+.gambar img:hover {
+  transform: scale(1.2);
+}
+
+.img-mobile {
+  display: none;
+}
+
+.text-body {
+  width: 60%;
+}
+
+.text-body h1 {
+  color: #0f8b8d;
+  font-size: 42px;
+  font-weight: 600;
+  border-bottom: 5px solid #ec9a29;
+  padding-bottom: 8px;
+  margin-bottom: 10px;
+  width: fit-content;
+}
+
+.text-body p {
+  color: #143642;
+}
+.tombol {
+  margin-top: 40px;
+}
+
+.button {
+  padding: 13px 40px;
+  border-radius: 30px;
+  background-color: #a8201a;
+  opacity: 0.7;
+  font-weight: 300;
+}
+
+.button:hover {
+  opacity: 1;
+}
+
+.text-find {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.text-find h1 {
+  color: #0f8b8d;
+  font-size: 42px;
+}
+
+.text-find span {
+  color: #ec9a29;
+}
+
+.find-out {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.image-zoom {
+  overflow: hidden;
+  border-radius: 20px;
+  height: 230px;
+  margin-bottom: 50px;
+  transition: transform ease 1s;
+}
+
+.find-out img {
+  width: 230px;
+  height: 230px;
+  margin-bottom: 50px;
+  transition: transform ease 1s;
+}
+
+.find-out img:hover {
+  transform: scale(1.2);
+}
+
+/* ask */
+.ask {
+  margin-bottom: 80px;
+  text-align: center;
+  width: 100%;
+  margin-top: -70px;
+}
+
+.ask h1 {
+  color: #0f8b8d;
+  font-size: 42px;
+  margin-bottom: 20px;
+}
+
+.ask p {
+  color: #143642;
+}
+
+/* footer */
+footer {
+  background-color: #143642;
+}
+
+.footer-section {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 80px;
+  padding-bottom: 100px;
+}
+
+.logo-footer img {
+  width: 350px;
+}
+
+.icon-contact {
+  margin-top: 10px;
+  margin-left: 15px;
+}
+
+.icon-contact img {
+  width: 25px;
+  margin-right: 10px;
+}
+
+.link-footer {
+  display: flex;
+  gap: 8rem;
+}
+
+.link-footer ul {
+  color: #ec9a29;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.link-footer li a {
+  color: #f9fbfe;
+  font-weight: 200;
+  font-size: 13px;
+  line-height: 40px;
+}
