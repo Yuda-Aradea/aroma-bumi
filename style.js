@@ -35,7 +35,7 @@ window.addEventListener('scroll', slideRight);
 slideRight();
 
 function slideRight() {
-  const triggerAnimation = (window.innerHeight / 5) * 3;
+  const triggerAnimation = (window.innerHeight / 7) * 4;
 
   animationRight.forEach((right) => {
     const animateRight = right.getBoundingClientRect().top;
@@ -52,7 +52,7 @@ window.addEventListener('scroll', slideLeft);
 
 slideLeft();
 function slideLeft() {
-  const triggerAnimation = (window.innerHeight / 5) * 3;
+  const triggerAnimation = (window.innerHeight / 7) * 4;
 
   animationLeft.forEach((left) => {
     const animateLeft = left.getBoundingClientRect().top;
