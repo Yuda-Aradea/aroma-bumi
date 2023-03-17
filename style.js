@@ -1,5 +1,5 @@
 // background
-const nav = document.querySelector('nav');
+const nav = document.querySelector('.nav-home');
 
 window.addEventListener('scroll', () => {
   if (document.documentElement.scrollTop > 150) {

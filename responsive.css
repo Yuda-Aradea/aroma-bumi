@@ -22,7 +22,7 @@
     display: none;
   }
 
-  nav .toggle-menu {
+  .nav-home .toggle-menu {
     display: block;
   }
 
@@ -95,7 +95,7 @@
     padding: 0 15px;
   }
 
-  nav {
+  .nav-home {
     height: 70px;
   }
 
@@ -103,7 +103,7 @@
     width: 150px;
   }
 
-  nav .toggle-menu {
+  .nav-home .toggle-menu {
     font-size: 1.5rem;
   }
 
