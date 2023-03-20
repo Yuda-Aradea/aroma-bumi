@@ -132,6 +132,7 @@
 
   nav {
     width: 100vw;
+    align-items: center;
     height: 70px;
   }
 
@@ -149,11 +150,12 @@
 
   .dropdown-menu {
     right: 0;
-    left: 0;
+
     top: 50px;
     width: 100vw;
     z-index: 5;
     margin: 0 auto;
+    justify-content: center;
   }
 
   .main-content {
