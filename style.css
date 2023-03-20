@@ -7,7 +7,6 @@
 body {
   font-family: 'Lato', sans-serif;
   color: #f9fbfe;
-  overflow-x: hidden;
 }
 
 a {
@@ -220,7 +219,6 @@ nav a:hover {
   max-width: 900px;
   display: flex;
   justify-content: space-between;
-  overflow-x: hidden;
 }
 
 .gambar {
