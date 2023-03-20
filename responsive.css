@@ -152,7 +152,7 @@
     right: 0;
 
     top: 50px;
-    width: 100vw;
+    width: 100%;
     z-index: 5;
     margin: 0 auto;
     justify-content: center;
@@ -343,6 +343,7 @@
     padding: 0 10px;
     margin-top: 100px;
     margin-bottom: 50px;
+    width: 100%;
   }
   .product {
     padding: 0;
