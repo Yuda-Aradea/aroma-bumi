@@ -24,7 +24,7 @@ li {
 }
 
 .slide-right {
-  transform: translateX(-200%);
+  transform: translateX(-150%);
 }
 
 .slide-right.show {
@@ -33,7 +33,7 @@ li {
 }
 
 .slide-left {
-  transform: translateX(200%);
+  transform: translateX(150%);
 }
 .slide-left.show {
   animation: slideLeft ease 1.5s;
@@ -67,7 +67,7 @@ li {
 /* animasi slideRight */
 @keyframes slideRight {
   from {
-    transform: translateX(-200%);
+    transform: translateX(-150%);
   }
   to {
     transform: translateX(0%);
@@ -77,7 +77,7 @@ li {
 /* animasi slideRight */
 @keyframes slideLeft {
   from {
-    transform: translateX(200%);
+    transform: translateX(150%);
   }
   to {
     transform: translateX(0%);
