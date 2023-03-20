@@ -120,6 +120,9 @@ nav {
   z-index: 3;
 }
 
+.logo .active {
+  border: none !important;
+}
 .logo img {
   width: 250px;
 }
