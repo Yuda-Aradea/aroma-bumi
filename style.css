@@ -385,19 +385,72 @@ footer {
 .content-product {
   display: flex;
   width: 100%;
-  color: black;
-  margin-top: 100px;
+  margin-top: 140px;
+  margin-bottom: 100px;
   justify-content: center;
   justify-content: space-between;
-  background-color: gray;
   padding: 0 150px;
 }
 .menu-product {
   display: flex;
   flex-direction: column;
-  width: 50%;
+  width: 40%;
+  padding-top: 30px;
+  border: 2px solid #d2d2d2;
+  border-radius: 10px;
+  padding-left: 30px;
 }
 
+.menu-product h2 {
+  font-weight: 700;
+  font-size: 32px;
+  color: #0f8b8d;
+  margin-bottom: 30px;
+}
+
+.link-product {
+  border-left: 3px solid #ec9a29;
+  padding-left: 30px;
+}
+
+.link-product li {
+  display: flex;
+  flex-direction: column;
+}
+
+.link-product li a {
+  font-weight: 400;
+  font-size: 16px;
+  color: #143642;
+  line-height: 50px;
+}
+
+.link-product li a.bold {
+  font-weight: 700;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.judul-product {
+  text-align: center;
+}
+
+.judul-product h1 {
+  font-weight: 700;
+  font-size: 42px;
+  color: #0f8b8d;
+  margin-bottom: 40px;
+}
+.judul-product p {
+  font-weight: 500;
+  font-size: 18px;
+  color: #143642;
+}
 .list-product {
   display: flex;
   flex-direction: row;
@@ -406,4 +459,26 @@ footer {
 .img-product img {
   width: 250px;
   height: 150px;
+}
+
+.data-product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(pic/Coffee\ background.png);
+  border-radius: 10px;
+  padding-top: 10px;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-left: 50px;
+  background-size: cover;
+  width: 200px;
+}
+
+.text-product p {
+  padding-bottom: 10px;
+}
+
+.product-mobile {
+  display: none;
 }
