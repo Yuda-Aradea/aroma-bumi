@@ -131,6 +131,7 @@
   }
 
   nav {
+    width: 100vw;
     height: 70px;
   }
 
@@ -150,7 +151,7 @@
     right: 0;
     left: 0;
     top: 50px;
-    width: 100%;
+    width: 100vw;
     z-index: 5;
     margin: 0 auto;
   }
