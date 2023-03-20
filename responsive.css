@@ -131,7 +131,6 @@
   }
 
   nav {
-    width: 100vw;
     height: 70px;
   }
 
@@ -148,10 +147,12 @@
   }
 
   .dropdown-menu {
-    right: 0% !important;
+    right: 0;
+    left: 0;
     top: 50px;
     width: 100%;
     z-index: 5;
+    margin: 0 auto;
   }
 
   .main-content {
