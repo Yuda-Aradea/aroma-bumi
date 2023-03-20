@@ -25,6 +25,7 @@ li {
 
 .slide-right {
   transform: translateX(-150%);
+  overflow-x: none;
 }
 
 .slide-right.show {
@@ -34,6 +35,7 @@ li {
 
 .slide-left {
   transform: translateX(150%);
+  overflow-x: none;
 }
 .slide-left.show {
   animation: slideLeft ease 1.5s;
