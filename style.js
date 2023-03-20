@@ -22,7 +22,7 @@ dropdownToglle.onclick = function () {
 
 // actove link
 const activePage = window.location.pathname;
-const activeLink = document.querySelectorAll('nav li a').forEach((link) => {
+const activeLink = document.querySelectorAll('nav ul li a').forEach((link) => {
   if (link.href.includes(`${activePage}`)) {
     link.classList.add('active');
   }
