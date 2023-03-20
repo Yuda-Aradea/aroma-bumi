@@ -7,6 +7,7 @@
 body {
   font-family: 'Lato', sans-serif;
   color: #f9fbfe;
+  overflow-x: hidden;
 }
 
 a {
