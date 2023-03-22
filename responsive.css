@@ -444,8 +444,8 @@
 
   .text-detail {
     margin-bottom: 0;
-    text-align: left;
-    padding-right: 90px;
+    width: 100%;
+    text-align: start;
     margin-top: 10px;
   }
 
