@@ -87,6 +87,8 @@
     justify-content: space-between;
     width: 50%;
   }
+
+  /* product html */
   .content-product {
     padding: 0 25px;
   }
@@ -145,9 +147,49 @@
   .description-product {
     padding: 0 50px 0 80px;
   }
-}
 
-/* Product.html */
+  /* store.html */
+  .map-store {
+    display: none;
+  }
+  .mobile-map {
+    display: block;
+  }
+
+  .mobile-map {
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .content-store {
+    padding: 80px 30px;
+  }
+  .content-store h1 {
+    font-size: 36px;
+  }
+  .content-store p {
+    font-size: 18px;
+  }
+  .contents-store {
+    flex-direction: column;
+  }
+  .address-store {
+    margin-right: 0px;
+    width: 50%;
+  }
+  .addresses-store {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
+  .address-store h1 {
+    font-size: 23px;
+  }
+  .address-store p {
+    font-size: 15px;
+  }
+}
 
 /* Max 576px */
 @media (max-width: 576px) {
@@ -373,10 +415,9 @@
 
   /* product.html*/
   .content-product {
-    padding: 0 10px;
+    padding: 0 15px;
     margin-top: 100px;
     margin-bottom: 50px;
-    width: 100%;
   }
   .product {
     padding: 0;
@@ -411,10 +452,14 @@
   }
 
   .data-product {
-    width: 160px;
+    width: 150px;
     margin: 0 auto;
     margin-bottom: 20px;
     margin-top: 10px;
+  }
+
+  .data-product:hover {
+    transform: scale(1.02);
   }
 
   .text-product p {
@@ -426,7 +471,7 @@
     height: 130px;
   }
 
-  /* product html */
+  /* detailhtml */
   .content-detail {
     margin-top: 120px;
     padding: 0 30px;
@@ -484,5 +529,39 @@
 
   .tombol-detail {
     margin-top: 40px;
+  }
+
+  /* store.html */
+  .mobile-map {
+    margin-bottom: 20px;
+  }
+  .mobile-map iframe {
+    width: 320px;
+    height: 250px;
+  }
+  .content-store {
+    padding: 50px 15px;
+  }
+  .content-store h1 {
+    font-size: 24px;
+    margin-bottom: 5px;
+  }
+  .content-store p {
+    font-size: 14px;
+  }
+  .addresses-store {
+    flex-direction: column;
+  }
+  .address-store {
+    width: 100%;
+    margin-bottom: 5px;
+    padding: 15px 15px 10px 15px;
+  }
+  .address-store h1 {
+    font-size: 18px;
+  }
+  .address-store p {
+    font-size: 12px;
+    text-align: justify;
   }
 }

@@ -63,7 +63,7 @@ function slideLeft() {
   });
 }
 
-// Acordion
+// Acordion footer
 
 const acordionMenus = document.querySelectorAll('.acordion-menu');
 
@@ -79,3 +79,68 @@ acordionMenus.forEach((acordionMenu) => {
     }
   });
 });
+
+// store alamat
+const address = document.querySelectorAll('.address-store');
+const ariobimos = document.querySelectorAll('.map-store iframe.ariobimo');
+const woodlands = document.querySelectorAll('.map-store iframe.woodland');
+const ikeas = document.querySelectorAll('.map-store iframe.ikea');
+
+address.forEach((addressess) => {
+  addressess.addEventListener('click', () => {
+    if (addressess.classList.contains('active')) {
+    } else {
+      address.forEach((addres) => {
+        addres.classList.remove('active');
+        ariobimos.forEach((ario) => {
+          ario.classList.remove('active');
+        });
+        woodlands.forEach((wood) => {
+          wood.classList.remove('active');
+        });
+        ikeas.forEach((ike) => {
+          ike.classList.remove('active');
+        });
+      });
+      addressess.classList.add('active');
+      ariobimos.forEach((ariobimo) => {
+        if (addressess.classList.contains('ariobimo')) {
+          ariobimo.classList.add('active');
+        }
+      });
+      woodlands.forEach((woodland) => {
+        if (addressess.classList.contains('woodland')) {
+          woodland.classList.add('active');
+        }
+      });
+      ikeas.forEach((ikea) => {
+        if (addressess.classList.contains('ikea')) {
+          ikea.classList.add('active');
+        }
+      });
+    }
+  });
+});
+
+// address.forEach((addressess) => {
+//   addressess.addEventListener('click', () => {
+//     if (addressess.classList.contains('ariobimo')) {
+//       addressess.classList.add('active');
+//       ariobimos.forEach((ariobimo) => {
+//         ariobimo.classList.add('active');
+//       });
+//     } else {
+//       address.forEach((addres) => {
+//         addres.classList.remove('active');
+//         ariobimos.forEach((ario) => {
+//           ario.classList.remove('active');
+//         });
+//       });
+//       addressess.classList.remove('active');
+//       ariobimo.classList.add('active');
+//     }
+//     if (addressess.classList.contains('woodland')) {
+//       addressess.classList.add('active');
+//     }
+//   });
+// });
