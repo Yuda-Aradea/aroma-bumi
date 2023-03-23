@@ -422,6 +422,9 @@
   .product {
     padding: 0;
   }
+  .menu-product {
+    padding-left: 0px;
+  }
 
   .judul-product h1 {
     font-size: 28px;
@@ -540,7 +543,7 @@
     height: 250px;
   }
   .content-store {
-    padding: 50px 15px;
+    padding: 40px 15px 50px 15px;
   }
   .content-store h1 {
     font-size: 24px;
