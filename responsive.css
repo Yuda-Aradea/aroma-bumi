@@ -189,6 +189,14 @@
   .address-store p {
     font-size: 15px;
   }
+
+  /* contact.html */
+  .content-contact {
+    padding: 80px 35px;
+  }
+  .contact-form {
+    padding: 50px;
+  }
 }
 
 /* Max 576px */
@@ -566,5 +574,35 @@
   .address-store p {
     font-size: 12px;
     text-align: justify;
+  }
+
+  /* contact.html */
+  .content-contact {
+    padding: 50px 15px;
+  }
+
+  .text-contact h1 {
+    font-size: 20px;
+  }
+
+  .contact-form {
+    width: 100%;
+    padding: 30px 20px 40px 20px;
+  }
+  .contacts-from {
+    flex-direction: column;
+    align-items: center;
+  }
+  .contacts-from label {
+    padding-bottom: 8px;
+    font-size: 15px;
+  }
+
+  .tombol-contacts {
+    margin-top: 20px;
+  }
+
+  .tombol-contacts a {
+    padding: 10px 50px;
   }
 }
